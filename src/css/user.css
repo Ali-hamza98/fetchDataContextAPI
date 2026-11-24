@@ -1,0 +1,28 @@
+.mainHeading {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 900;
+}
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.container {
+  height: auto;
+  width: 250px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  background-color: blueviolet;
+  color: bisque;
+}
+.container p {
+  overflow-wrap: break-word;
+}
+.dummyImg {
+  justify-content: center;
+  align-items: center;
+}
